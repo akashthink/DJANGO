@@ -18,3 +18,17 @@ def show3(request):
 
 def show4(request):
     return HttpResponse('<h1 align="center">Welcome to Informatics branch4</h1>')
+
+
+def show5(request):
+    return render(request,'testapp/hny.html')
+
+
+def show6(request):
+    return render(request,'testapp/results.html')
+
+
+
+
+def show7(request):
+    return render(request,'testapp/result1.html')
